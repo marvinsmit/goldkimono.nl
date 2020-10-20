@@ -6,21 +6,44 @@
     <meta name="description" content="Have a look at this for me, please. All right, people, there was no Goldkimono. The flash of light you saw in the sky was not a UFO. Swamp gas from a weather balloon was trapped in a thermal pocket and reflected the light from Venus.">
     <title>Singer-songwriter Goldkimono lanceert eerste single 'To Tomorrow' als 3FM Talent</title>
     <style>
+      body {
+        display: flex; 
+        height: 100%; 
+        margin: 0px; 
+        background: #0e0e0e;
+      }
+
       @media all and (orientation:portrait) {
         img {
           width: 100%;
+          margin: auto;
+        }
+
+        iframe {
+          width: 100vw;
+          height: calc(100vw * 0.5625);
+          margin: 0 auto;
+          align-self: center;
         }
       }
 
       @media all and (orientation:landscape) {
         img {
           height: 100%;
+          margin: auto;
+        }
+
+        iframe {
+          width: calc(100vh / 0.5625);
+          height: 100vh;
+          margin: 0 auto;
+          align-self: center;
         }
       }
     </style>
   </head>
 
-  <body style="display: flex; height: 100%; margin: 0px; background: #0e0e0e;">
-    <img style="-webkit-user-select: none; margin: auto;" src="mib.gif">
+  <body>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yDvt3K0VRCM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </body>
 </html>
